@@ -1,0 +1,37 @@
+.sidebar {
+  flex: 1;
+  background-color: #f4f4f8;
+  height: 100vh;
+}
+
+.SidebarContent {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.firstitle {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Gabarito", sans-serif;
+  font-size: 15px;
+}
+.TitleIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.sideIcon {
+  width: 20px;
+  height: 20px;
+  padding-right: 5px;
+}
+
+.sidelistblock {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.Sidelist {
+  padding-top: 30px;
+}
