@@ -2,6 +2,10 @@ import "./Sidebar.css";
 import { RiSettingsLine } from "react-icons/ri";
 import { LuUserSquare } from "react-icons/lu";
 import { MdOutlineHelpCenter } from "react-icons/md";
+import { LuWallet } from "react-icons/lu";
+import { LuBadgePercent } from "react-icons/lu";
+import { MdAddShoppingCart } from "react-icons/md";
+import { TbSquareKey } from "react-icons/tb";
 
 export default function Sidebar() {
   return (
@@ -13,9 +17,11 @@ export default function Sidebar() {
         </div>
         <div className="sidelistblock">
           <div className="Sidelist">
+            <TbSquareKey />
             <h4>Dashboard</h4>
           </div>
           <div className="Sidelist">
+            <MdAddShoppingCart />
             <h4>Product</h4>
           </div>
           <div className="Sidelist">
@@ -23,9 +29,11 @@ export default function Sidebar() {
             <h4>Customers</h4>
           </div>
           <div className="Sidelist">
+            <LuWallet />
             <h4>Income</h4>
           </div>
           <div className="Sidelist">
+            <LuBadgePercent />
             <h4>Promote</h4>
           </div>
           <div className="Sidelist">

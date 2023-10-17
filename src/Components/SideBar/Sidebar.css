@@ -1,5 +1,5 @@
 .sidebar {
-  flex: 1;
+  flex: 2;
   background-color: #050566;
   height: 100vh;
 }
@@ -7,7 +7,7 @@
 .SidebarContent {
   margin-left: 20px;
   cursor: pointer;
-  color:white;
+  color: white;
 }
 
 .firstitle {

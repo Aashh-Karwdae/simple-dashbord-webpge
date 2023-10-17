@@ -7,7 +7,7 @@
 
 .infodivs {
   background-color: white;
-  width: 250px;
+  width: 220px;
   border: 0px;
   border-radius: 8px;
   display: flex;
@@ -24,17 +24,135 @@
   background-color: rgb(188, 240, 220);
   display: flex;
   align-items: center;
-  margin: 0 4px;
+  margin: 0 7px;
 }
 
 .firstIcon {
   height: 45px;
   width: 45px;
   margin-left: 16px;
-  color: rgb(14, 192, 14);
+  color: green;
 }
 
 .detailsDiv {
-  margin-left: 1px;
-  color: white;
+}
+
+.firstHeading {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(163, 161, 161);
+  letter-spacing: 1.2px;
+  font-weight: 300;
+}
+
+.price {
+  font-size: 20px;
+}
+.Arrow {
+  height: 20px;
+  width: 20px;
+}
+
+.ArrowLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1px;
+}
+
+.Arrowdiv {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(15, 185, 58);
+  margin-right: 1px;
+}
+
+.downHeading {
+  font-size: 11px;
+  margin-left: 5px;
+}
+
+/* ...........Second Component second div .......... */
+
+.orderIconDiv {
+  border: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: rgb(245, 215, 245);
+  display: flex;
+  align-items: center;
+  margin: 0 7px;
+}
+
+.SecondIcon {
+  height: 45px;
+  width: 45px;
+  margin-left: 16px;
+  color: purple;
+}
+
+.Orderarrowdiv {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(214, 33, 118);
+  margin-right: 1px;
+}
+
+/* ......................Third Div Of Second Comonents..........  */
+
+.balanceIconDiv {
+  border: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  margin: 0 7px;
+}
+
+.ThirdIcon {
+  height: 45px;
+  width: 45px;
+  margin-left: 16px;
+  color: rgb(3, 3, 107);
+}
+
+.balncarrowdiv {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(214, 33, 118);
+  margin-right: 1px;
+}
+
+/* ...............Fourth Div of Second Component........... */
+
+.saleIconDiv {
+  border: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: rgb(228, 139, 169);
+  display: flex;
+  align-items: center;
+  margin: 0 7px;
+}
+
+.FourthIcon {
+  height: 45px;
+  width: 45px;
+  margin-left: 16px;
+  color: rgb(230, 11, 11);
+}
+
+.Salesarrowdiv {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(15, 185, 58);
+  margin-right: 1px;
 }

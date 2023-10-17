@@ -1,3 +1,4 @@
+import Overview from "../OverViewComponent/Overview";
 import Secondiv from "../SecondDiv/Secondiv";
 import "./Rightbar.css";
 import { FiSearch } from "react-icons/fi";
@@ -13,6 +14,7 @@ export default function Rightbar() {
         </div>
       </div>
       <Secondiv />
+      <Overview />
     </div>
   );
 }

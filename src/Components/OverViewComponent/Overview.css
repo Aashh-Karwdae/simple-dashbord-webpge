@@ -1,0 +1,17 @@
+.overview {
+  align-items: center;
+  justify-content: space-between;
+  width: 700px;
+  margin-left: 40px;
+  margin-top: 20px;
+  /* background-color: white; */
+}
+
+.select {
+  border: 2px;
+
+  background-color: white;
+}
+.option {
+  margin: 2px 5px;
+}
