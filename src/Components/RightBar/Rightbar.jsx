@@ -1,3 +1,4 @@
+import Secondiv from "../SecondDiv/Secondiv";
 import "./Rightbar.css";
 import { FiSearch } from "react-icons/fi";
 
@@ -11,6 +12,7 @@ export default function Rightbar() {
           <input type="text" placeholder="Search" className="searchname" />
         </div>
       </div>
+      <Secondiv />
     </div>
   );
 }

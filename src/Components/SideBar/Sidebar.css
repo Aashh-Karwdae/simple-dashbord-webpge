@@ -1,12 +1,13 @@
 .sidebar {
   flex: 1;
-  background-color: #f4f4f8;
+  background-color: #050566;
   height: 100vh;
 }
 
 .SidebarContent {
   margin-left: 20px;
   cursor: pointer;
+  color:white;
 }
 
 .firstitle {

@@ -1,0 +1,40 @@
+.secondDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.infodivs {
+  background-color: white;
+  width: 250px;
+  border: 0px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+}
+
+.infoIconsdiv {
+  border: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: rgb(188, 240, 220);
+  display: flex;
+  align-items: center;
+  margin: 0 4px;
+}
+
+.firstIcon {
+  height: 45px;
+  width: 45px;
+  margin-left: 16px;
+  color: rgb(14, 192, 14);
+}
+
+.detailsDiv {
+  margin-left: 1px;
+  color: white;
+}
