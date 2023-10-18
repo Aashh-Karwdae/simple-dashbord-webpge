@@ -1,6 +1,6 @@
 import React from "react";
 import "./Rechart.css";
-import { BarChart, Bar, XAxis } from "recharts";
+import { BarChart, Bar, XAxis, Tooltip } from "recharts";
 
 const data = [
   {
@@ -72,6 +72,7 @@ export default function Recharts() {
           tickLine={false}
           tick={{ fill: "black" }}
         />
+        <Tooltip />
       </BarChart>
     </div>
   );

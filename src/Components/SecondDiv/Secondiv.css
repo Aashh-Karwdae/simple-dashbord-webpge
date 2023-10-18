@@ -90,14 +90,14 @@
   height: 45px;
   width: 45px;
   margin-left: 16px;
-  color: rgb(66, 0, 128);
+  color: purple;
 }
 
 .Orderarrowdiv {
   font-size: 10px;
   display: flex;
   align-items: center;
-  color: rgb(214, 33, 118);
+  color: rgb(238, 22, 184);
   margin-right: 1px;
 }
 

@@ -1,4 +1,6 @@
 .overview {
+  display: flex;
+  align-items: center;
 }
 
 .FirstCompo {

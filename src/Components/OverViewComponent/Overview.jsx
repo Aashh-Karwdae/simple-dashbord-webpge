@@ -1,3 +1,4 @@
+import Lastchart from "../LastChart/Lastchart";
 import Recharts from "../Recharts/Rechart";
 import "./Overview.css";
 
@@ -18,6 +19,7 @@ export default function Overview() {
         </div>
         <Recharts />
       </div>
+      <Lastchart />
     </div>
   );
 }
