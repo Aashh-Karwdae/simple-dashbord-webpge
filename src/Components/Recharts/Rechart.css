@@ -1,6 +1,7 @@
 .Barchart {
   background-color: white;
   align-items: center;
+  cursor: pointer;
 }
 
 .chartHeading {
