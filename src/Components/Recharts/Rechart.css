@@ -1,4 +1,11 @@
-.barcharts {
-  margin: 0 5px;
-  border-radius: 5px;
+.Barchart {
+  background-color: white;
+  align-items: center;
+}
+
+.chartHeading {
+  font-size: 13px;
+  margin-left: 20px;
+  font-weight: 500;
+  color: gray;
 }

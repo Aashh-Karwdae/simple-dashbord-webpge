@@ -4,16 +4,20 @@ import "./Overview.css";
 export default function Overview() {
   return (
     <div className="overview">
-      <h3>Overview</h3>
-      <div className="select">
-        <select placeholder="Quarterly">
-          <option className="Option">Quarterly</option>
-          <option className="Option">Weekly</option>
-          <option className="Option">Monthly</option>
-          <option className="Option">Yearly</option>
-        </select>
+      <div className="FirstCompo">
+        <div className="topbar">
+          <h3 className="Heading">Overview</h3>
+          <div className="selectDiv">
+            <select>
+              <option className="option">Quaterly</option>
+              <option className="option">Weekly</option>
+              <option className="option">Monthly</option>
+              <option className="option">Yearly</option>
+            </select>
+          </div>
+        </div>
+        <Recharts />
       </div>
-      <Recharts />
     </div>
   );
 }

@@ -1,17 +1,31 @@
 .overview {
+}
+
+.FirstCompo {
+  height: 280px;
+  width: 680px;
+  background-color: white;
+  margin-left: 35px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.topbar {
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 700px;
-  margin-left: 40px;
+}
+
+.Heading {
   margin-top: 20px;
-  /* background-color: white; */
+  margin-left: 17px;
 }
 
-.select {
-  border: 2px;
-
-  background-color: white;
+.selectDiv {
+  margin-top: 20px;
+  margin-right: 20px;
+  border-color: #b31bb3;
 }
+
 .option {
-  margin: 2px 5px;
 }
