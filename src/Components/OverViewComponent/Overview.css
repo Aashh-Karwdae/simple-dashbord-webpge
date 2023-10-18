@@ -26,8 +26,13 @@
 .selectDiv {
   margin-top: 20px;
   margin-right: 20px;
-  border-color: #b31bb3;
+  border-color: white;
 }
 
-.option {
+.selectOption {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(245, 248, 250);
+  border: none;
+  border-radius: 5px;
 }

@@ -1,0 +1,13 @@
+.nameDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-left: 40px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.namesidediv {
+  display: flex;
+}

@@ -17,16 +17,22 @@
   display: flex;
   margin-right: 40px;
   align-items: center;
-
+  border-radius: 5px;
   background-color: white;
 }
 
 .searchIcon {
   width: 15px;
   height: 15px;
-  margin-right: 6px;
+  margin-right: 3px;
+  margin-left: 2px;
 }
 
 .searchname {
   font-size: 12px;
+  border: none;
+}
+
+.searchname:focus {
+  outline: none;
 }

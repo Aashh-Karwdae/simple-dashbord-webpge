@@ -9,7 +9,7 @@ export default function Overview() {
         <div className="topbar">
           <h3 className="Heading">Overview</h3>
           <div className="selectDiv">
-            <select>
+            <select className="selectOption">
               <option className="option">Quaterly</option>
               <option className="option">Weekly</option>
               <option className="option">Monthly</option>

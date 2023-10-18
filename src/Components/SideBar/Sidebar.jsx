@@ -17,28 +17,28 @@ export default function Sidebar() {
         </div>
         <div className="sidelistblock">
           <div className="Sidelist">
-            <TbSquareKey />
+            <TbSquareKey className="Icons" />
             <h4>Dashboard</h4>
           </div>
           <div className="Sidelist">
-            <MdAddShoppingCart />
-            <h4>Product</h4>
+            <MdAddShoppingCart className="Icons" />
+            <h4 className="SideHeadings">Product</h4>
           </div>
           <div className="Sidelist">
-            <LuUserSquare className="sideIcon" />
-            <h4>Customers</h4>
+            <LuUserSquare className="Icons" />
+            <h4 className="SideHeadings">Customers</h4>
           </div>
           <div className="Sidelist">
-            <LuWallet />
-            <h4>Income</h4>
+            <LuWallet className="Icons" />
+            <h4 className="SideHeadings">Income</h4>
           </div>
           <div className="Sidelist">
-            <LuBadgePercent />
-            <h4>Promote</h4>
+            <LuBadgePercent className="Icons" />
+            <h4 className="SideHeadings">Promote</h4>
           </div>
           <div className="Sidelist">
-            <MdOutlineHelpCenter className="sideIcon" />
-            <h4>Help</h4>
+            <MdOutlineHelpCenter className="Icons" />
+            <h4 className="SideHeadings">Help</h4>
           </div>
         </div>
       </div>
